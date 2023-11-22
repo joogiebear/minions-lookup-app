@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minion Lookup Tool</title>
+    <meta name="description" content="Explore a variety of Minions, including combat, farming, fishing, foraging, and mining types.">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <h1>Search for Minions</h1>
+    </header>
+    <main>
+        <section class="filter-section">
+            <label for="minionSelect" class="select-label">Choose a Minion Type:</label>
+            <div class="select-container">
+                <select id="minionSelect" class="select-style" aria-label="Select Minion Type" onchange="filterByMinionType()">
+                    <option value="combat" selected>Combat Minion</option>
+                    <option value="farming">Farming Minion</option>
+                    <option value="fishing">Fishing Minion</option>
+                    <option value="foraging">Foraging Minion</option>
+                    <option value="mining">Mining Minion</option>
+                </select>
+            </div>
+        </section>
+        <section id="minionList" aria-label="Minion List">
+            <!-- Minion cards will be populated here -->
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 Minion Lookup App | Developed by <a href="https://builtbybit.com/members/joogie.403983/">Joogie</a></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Blaze Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/blaze.png"
+  },
+  {
+    "name": "Cave Spider Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Creeper Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Enderman Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Ghast Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Inferno Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Magma Cube Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Revenant Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Skeleton Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Slime Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Spider Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Vampire Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Voidling Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Tarantula Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Zombie Minion",
+    "type": "combat",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Brown Mushroom Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Cactus Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Carrot Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Chicken Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Cocoa Beans Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Cow Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Melon Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Nether Wart Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Pig Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Potato Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Pumpkin Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Rabbit Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Red Mushroom Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Sheep Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Sugar Cane Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Wheat Minion",
+    "type": "farming",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Acacia Minion",
+    "type": "foraging",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Birch Minion",
+    "type": "foraging",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Dark Oak Minion",
+    "type": "foraging",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Jungle Minion",
+    "type": "foraging",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Oak Minion",
+    "type": "foraging",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Spruce Minion",
+    "type": "foraging",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Coal Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Cobblestone Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Diamond Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Emerald Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "End Stone Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Glowstone Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Gold Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Gravel Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Ice Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Iron Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Lapis Lazuli Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Mycelium Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Nether Quartz Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Obsidian Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Red Sand Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Redstone Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 16"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Sand Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 11"
+    ],
+    "img": "images/place-holder.png"
+  },
+  {
+    "name": "Snow Minion",
+    "type": "mining",
+    "details": [
+      "Levels: 12"
+    ],
+    "img": "images/place-holder.png"
+  }
+]

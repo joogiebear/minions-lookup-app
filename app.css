@@ -1,0 +1,203 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171a21; /* Dark background color (#171a21) */
+    color: #eee; /* Light grey text color for contrast */
+    line-height: 1.6; /* Enhanced readability */
+}
+
+/* Header Styles */
+header {
+    background-color: #282f3f; /* Darker grey background color */
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em; /* Slightly larger for impact */
+    font-weight: 600;
+}
+
+/* Filter Section Styles */
+.filter-section {
+    padding: 1em;
+    margin: 2em auto;
+    max-width: 600px;
+    text-align: center;
+    background-color: #222735; /* Dark grey background color */
+    border-radius: 8px; /* Smooth rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.filter-section:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */
+    background-color: #222735; /* Match background color on hover */
+}
+
+.select-label {
+    font-size: 1.1em; /* Readable font size */
+    margin-bottom: 1em; /* Balanced spacing */
+    display: block; /* Ensure proper block-level display */
+}
+
+/* Select Box Container Styles */
+.select-container {
+    position: relative;
+    display: block; /* Changed to block for better responsiveness */
+    width: 100%;
+    margin: 0 auto; /* Centering if needed */
+}
+
+/* Select Box Styles */
+.select-box, .select-style {
+    width: 100%;
+    padding: 10px 20px; /* Add padding to the sides */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 0 5px; /* Add margin between buttons and select element */
+    background-color: #485366; /* Element background color */
+    font-size: 1em; /* Standard font size */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    color: #fff; /* Element text color */
+    outline: none;
+}
+
+.select-button:hover {
+    background-color: #384151; /* Darker background color on hover */
+}
+
+.select-style:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); /* Subtle glow effect on focus */
+}
+
+/* Minion List Styles */
+#minionList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.minion-card {
+    background-color: #222735; /* Dark background color (#222735) for minion image */
+    border-radius: 12px; /* More pronounced rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+    padding: 2px; /* Decreased internal padding for smaller cards */
+    margin: 2px; /* Decreased margin for smaller cards */
+    width: calc(16% - 4px); /* Adjusted width for five cards across */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smoother transition for hover and shadow */
+}
+
+.minion-card:hover {
+    transform: scale(1.03); /* Subtle scaling on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center align list */
+    font-size: 0.95em;
+}
+
+.card li {
+    padding: 0.5em 0;
+}
+
+.card li:last-child {
+    border-bottom: none;
+}
+
+/* Minion Details Styles */
+.minion-details {
+    background-color: #282f3f; /* Dark background color (#282f3f) for minion details */
+    padding: 1em;
+    border-radius: 8px; /* Smooth rounded corners */
+    color: #fff; /* Light grey text color for contrast */
+    margin-top: 1em;
+}
+
+#minionSelect {
+    background-color: #282f3f; /* Darker grey background color */
+    color: #fff; /* White text color */
+}
+
+#minionSelect option {
+    background-color: #282f3f; /* Darker grey background color */
+    color: #fff; /* White text color */
+}
+
+#minionSelect:hover {
+    background-color: #282f3f; /* Change the background color on hover */
+}
+
+#minionSelect:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); /* Subtle glow effect on focus */
+}
+
+/* Enhancing Touch Targets */
+.select-style, .card li {
+    padding: 0.8em; /* Increased padding for easier touch */
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em; /* Adjusted font size for medium screens */
+    }
+
+    .minion-card {
+        width: calc(50% - 20px); /* Two cards per row */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 1em 0;
+    }
+
+    header h1 {
+        font-size: 1.6em; /* Adjusted for smaller screens */
+    }
+
+    .filter-section {
+        padding: 1em;
+    }
+
+    .minion-card {
+        width: 100%; /* Full width cards on smaller screens */
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: #282f3f; /* Darker grey background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); /* Adding depth with a shadow at the top */
+}
+
+.footer a {
+    color: #fff; /* Link text color */
+    text-decoration: underline; /* Underline for links */
+}
+
+.footer a:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+
